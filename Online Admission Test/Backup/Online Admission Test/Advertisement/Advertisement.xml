@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <!-- Banner Advertisements -->
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/adidas.gif</ImageUrl>
+    <NavigateUrl>http://www.adidas.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/audi.bmp</ImageUrl>
+    <NavigateUrl>http://www.audi.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/aws.gif</ImageUrl>
+    <NavigateUrl>http://www.aws.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/bavaria.gif</ImageUrl>
+    <NavigateUrl>http://www.bavaria.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/bentley.bmp</ImageUrl>
+    <NavigateUrl>http://www.bentley.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/bmw.gif</ImageUrl>
+    <NavigateUrl>http://www.bmw.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/boss.bmp</ImageUrl>
+    <NavigateUrl>http://www.boss.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/ck.gif</ImageUrl>
+    <NavigateUrl>http://www.ck.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/coca.gif</ImageUrl>
+    <NavigateUrl>http://www.cocacola.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/cocacola.gif</ImageUrl>
+    <NavigateUrl>http://www.cocacola.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Advertisement/Image/dell.gif</ImageUrl>
+    <NavigateUrl>http://www.dell.com</NavigateUrl>
+    <AlternateText>Banner Advertisement 1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>banner</Keyword>
+  </Ad>
+  
+</Advertisements>

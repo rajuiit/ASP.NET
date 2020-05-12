@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2BDB0F6B-3AC1-4D5F-84CE-CFC5FFA3EF51}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Online_Admission_Test</RootNamespace>
+    <AssemblyName>Online Admission Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>G:\Reza L\Language\ASP. NET\PDF in ASP.NET\itextsharp-all-5.4.4\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.5.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.5.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=6.5.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="Advertisement\Advertisement.xml" />
+    <Content Include="Advertisement\Image\adidas.gif" />
+    <Content Include="Advertisement\Image\audi.bmp" />
+    <Content Include="Advertisement\Image\aws.gif" />
+    <Content Include="Advertisement\Image\bavaria.gif" />
+    <Content Include="Advertisement\Image\bentley.bmp" />
+    <Content Include="Advertisement\Image\bmw.gif" />
+    <Content Include="Advertisement\Image\boss.bmp" />
+    <Content Include="Advertisement\Image\ck.gif" />
+    <Content Include="Advertisement\Image\coca.gif" />
+    <Content Include="Advertisement\Image\cocacola.gif" />
+    <Content Include="Advertisement\Image\dell.gif" />
+    <Content Include="Advertisement\Image\durex.gif" />
+    <Content Include="Advertisement\Image\ferari.bmp" />
+    <Content Include="Advertisement\Image\gucci.gif" />
+    <Content Include="Advertisement\Image\harley.gif" />
+    <Content Include="Advertisement\Image\honda.bmp" />
+    <Content Include="Advertisement\Image\honda2.bmp" />
+    <Content Include="Advertisement\Image\ibm.gif" />
+    <Content Include="Advertisement\Image\ibm2.bmp" />
+    <Content Include="Advertisement\Image\jaguar.gif" />
+    <Content Include="Advertisement\Image\kenwood.bmp" />
+    <Content Include="Advertisement\Image\macdonalds.gif" />
+    <Content Include="Advertisement\Image\mazda.bmp" />
+    <Content Include="Advertisement\Image\mclaren.bmp" />
+    <Content Include="Advertisement\Image\mercedes.bmp" />
+    <Content Include="Advertisement\Image\nasa.gif" />
+    <Content Include="Advertisement\Image\nike.bmp" />
+    <Content Include="Advertisement\Image\nike.gif" />
+    <Content Include="Advertisement\Image\nokia.bmp" />
+    <Content Include="Advertisement\Image\omega.bmp" />
+    <Content Include="Advertisement\Image\peugeot.bmp" />
+    <Content Include="Advertisement\Image\playstation.gif" />
+    <Content Include="Advertisement\Image\puma.gif" />
+    <Content Include="Advertisement\Image\redbull.bmp" />
+    <Content Include="Advertisement\Image\seat.bmp" />
+    <Content Include="Advertisement\Image\skoda.bmp" />
+    <Content Include="Advertisement\Image\sony.gif" />
+    <Content Include="Advertisement\Image\sony2.gif" />
+    <Content Include="Advertisement\Image\sony3.gif" />
+    <Content Include="Advertisement\Image\suzuki.bmp" />
+    <Content Include="Advertisement\Image\toyota.bmp" />
+    <Content Include="Advertisement\Image\viper.bmp" />
+    <Content Include="Advertisement\Image\vodaphone.gif" />
+    <Content Include="Advertisement\Image\volvo.bmp" />
+    <Content Include="Advertisement\Image\winxp.gif" />
+    <Content Include="Advertisement\Image\xbox.gif" />
+    <Content Include="Advertisement\Image\xp.gif" />
+    <Content Include="Advertisement\Image\yahama.bmp" />
+    <Content Include="attendancesheet.aspx" />
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="general.aspx" />
+    <Content Include="Images\01819466747_1234567890.jpg" />
+    <Content Include="img\1.JPG" />
+    <Content Include="img\2.JPG" />
+    <Content Include="img\A.JPG" />
+    <Content Include="img\B.JPG" />
+    <Content Include="img\C.JPG" />
+    <Content Include="img\D.jpg" />
+    <Content Include="img\defaultpic.png" />
+    <Content Include="img\E.jpg" />
+    <Content Include="img\F.jpg" />
+    <Content Include="img\G.jpg" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\H.jpg" />
+    <Content Include="img\ju.JPG" />
+    <Content Include="img\julogo.GIF" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="main.aspx" />
+    <Content Include="seatplan.aspx" />
+    <Content Include="unitwiseadmitcard.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="attendancesheet.aspx.cs">
+      <DependentUpon>attendancesheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="attendancesheet.aspx.designer.cs">
+      <DependentUpon>attendancesheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createAdmitPDF.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="general.aspx.cs">
+      <DependentUpon>general.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="general.aspx.designer.cs">
+      <DependentUpon>general.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDFWriterEvents.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="seatplan.aspx.cs">
+      <DependentUpon>seatplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seatplan.aspx.designer.cs">
+      <DependentUpon>seatplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="unitwiseadmitcard.aspx.cs">
+      <DependentUpon>unitwiseadmitcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="unitwiseadmitcard.aspx.designer.cs">
+      <DependentUpon>unitwiseadmitcard.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="font\kalpurush.ttf" />
+    <None Include="font\KINDEL_.TTF" />
+    <None Include="font\times.ttf" />
+    <None Include="font\vrinda.ttf" />
+    <None Include="PDFs\Doc1.pdf" />
+    <None Include="PDFs\Doc2.pdf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1075</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
